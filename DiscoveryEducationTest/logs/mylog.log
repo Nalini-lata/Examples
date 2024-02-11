@@ -1,6 +1,6 @@
-[INFO ] 2024-02-11 09:08:03.623 [main] NaliniQA - URL Accessed Successfully
-[INFO ] 2024-02-11 09:08:11.029 [main] NaliniQA - Tried to Login Discover Education with wrong credentials
-[INFO ] 2024-02-11 09:08:11.067 [main] NaliniQA - Verified Message After inserting Wrong UserName&Password
-[INFO ] 2024-02-11 09:08:12.120 [main] NaliniQA - Verified Text 'Not sure which method to use?' is present in the LoginPage
-[INFO ] 2024-02-11 09:08:14.842 [main] NaliniQA - Clicked on ForgetUName Pwd and provided Email & SentEmail btn
-[INFO ] 2024-02-11 09:08:14.875 [main] NaliniQA - Checked Message'Please Check Your Email'
+[INFO ] 2024-02-11 12:54:47.723 [main] NaliniQA - URL Accessed Successfully
+[INFO ] 2024-02-11 12:54:51.073 [main] NaliniQA - Tried to Login Discover Education with wrong credentials
+[INFO ] 2024-02-11 12:54:51.108 [main] NaliniQA - Verified Message After inserting Wrong UserName&Password
+[INFO ] 2024-02-11 12:54:52.158 [main] NaliniQA - Verified Text 'Not sure which method to use?' is present in the LoginPage
+[INFO ] 2024-02-11 12:54:54.927 [main] NaliniQA - Clicked on ForgetUName Pwd and provided Email & SentEmail btn
+[INFO ] 2024-02-11 12:54:54.963 [main] NaliniQA - Checked Message'Please Check Your Email'

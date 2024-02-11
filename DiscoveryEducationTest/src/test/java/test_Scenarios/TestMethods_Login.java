@@ -10,6 +10,8 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
+import Utility.PropertyContentReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import object.ForgetPasswordPage;
 import object.SelectRolePage;
@@ -18,8 +20,8 @@ import object.SignInPage;
 public class TestMethods_Login {
 	WebDriver driver;
 	protected static Logger log;
-	
-	//Initialize driver and URL Access
+
+	// Initialize driver and URL Access
 
 	@BeforeTest
 	public void beforeTest() {
@@ -27,7 +29,7 @@ public class TestMethods_Login {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get("https://app.discoveryeducation.com/learn/signin");
+		driver.get(PropertyContentReader.getProperty("url"));
 		log.info("URL Accessed Successfully");
 	}
 
@@ -42,7 +44,7 @@ public class TestMethods_Login {
 
 	public void signIn() {
 		SignInPage input = new SignInPage(driver);
-		input.signIn("Nlata", "Test@123");
+		input.signIn(PropertyContentReader.getProperty("username"), PropertyContentReader.getProperty("password"));
 		log.info("Tried to Login Discover Education with wrong credentials");
 		String errorMessage = input.getErrorMessage();
 		Assert.assertEquals(errorMessage, " Incorrect username and/or password. Passwords are case sensitive. ");
@@ -60,15 +62,14 @@ public class TestMethods_Login {
 	public void clickForgetPasswordLink() throws InterruptedException {
 
 		ForgetPasswordPage input1 = new ForgetPasswordPage(driver);
-		input1.forgetPassword("nalinilata6666@gmail.com");
-		
+		input1.forgetPassword(PropertyContentReader.getProperty("email"));
 		log.info("Clicked on ForgetUName Pwd and provided Email & SentEmail btn");
 
 		String checkMessage = input1.checkMessage();
 		Assert.assertEquals(checkMessage, "Please check your email.");
 		System.out.println(checkMessage);
 		System.out.println("Verified the message content successfully");
-		
+
 		log.info("Checked Message'Please Check Your Email'");
 	}
 

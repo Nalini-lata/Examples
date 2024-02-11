@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-11T09:07:56 IST" name="Default suite" finished-at="2024-02-11T09:08:15 IST" duration-ms="18688">
+  <suite started-at="2024-02-11T12:54:40 IST" name="Default suite" finished-at="2024-02-11T12:54:55 IST" duration-ms="14319">
     <groups>
     </groups>
-    <test started-at="2024-02-11T09:07:56 IST" name="Default test" finished-at="2024-02-11T09:08:15 IST" duration-ms="18688">
+    <test started-at="2024-02-11T12:54:40 IST" name="Default test" finished-at="2024-02-11T12:54:55 IST" duration-ms="14319">
       <class name="test_Scenarios.TestMethods_Login">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test_Scenarios.TestMethods_Login@293a5bf6]" started-at="2024-02-11T09:07:56 IST" name="beforeTest" finished-at="2024-02-11T09:08:03 IST" duration-ms="7175" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test_Scenarios.TestMethods_Login@293a5bf6]" started-at="2024-02-11T12:54:40 IST" name="beforeTest" finished-at="2024-02-11T12:54:47 IST" duration-ms="6762" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="login()[pri:0, instance:test_Scenarios.TestMethods_Login@293a5bf6]" started-at="2024-02-11T09:08:03 IST" name="login" finished-at="2024-02-11T09:08:09 IST" duration-ms="5935" status="PASS">
+        <test-method signature="login()[pri:0, instance:test_Scenarios.TestMethods_Login@293a5bf6]" started-at="2024-02-11T12:54:47 IST" name="login" finished-at="2024-02-11T12:54:49 IST" duration-ms="1859" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="signIn()[pri:0, instance:test_Scenarios.TestMethods_Login@293a5bf6]" started-at="2024-02-11T09:08:09 IST" name="signIn" finished-at="2024-02-11T09:08:12 IST" duration-ms="2521" status="PASS">
+        <test-method signature="signIn()[pri:0, instance:test_Scenarios.TestMethods_Login@293a5bf6]" started-at="2024-02-11T12:54:49 IST" name="signIn" finished-at="2024-02-11T12:54:52 IST" duration-ms="2540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
-        <test-method signature="clickForgetPasswordLink()[pri:0, instance:test_Scenarios.TestMethods_Login@293a5bf6]" started-at="2024-02-11T09:08:12 IST" name="clickForgetPasswordLink" finished-at="2024-02-11T09:08:14 IST" depends-on-methods="test_Scenarios.TestMethods_Login.signIn" duration-ms="2747" status="PASS">
+        <test-method signature="clickForgetPasswordLink()[pri:0, instance:test_Scenarios.TestMethods_Login@293a5bf6]" started-at="2024-02-11T12:54:52 IST" name="clickForgetPasswordLink" finished-at="2024-02-11T12:54:54 IST" depends-on-methods="test_Scenarios.TestMethods_Login.signIn" duration-ms="2800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickForgetPasswordLink -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:test_Scenarios.TestMethods_Login@293a5bf6]" started-at="2024-02-11T09:08:14 IST" name="afterTest" finished-at="2024-02-11T09:08:15 IST" duration-ms="257" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test_Scenarios.TestMethods_Login@293a5bf6]" started-at="2024-02-11T12:54:54 IST" name="afterTest" finished-at="2024-02-11T12:54:55 IST" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
